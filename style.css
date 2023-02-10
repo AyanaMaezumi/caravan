@@ -77,6 +77,44 @@ main {
   line-height: 0.6; /* 上下中央揃え */
 }
 
+.blog-box {
+  padding-top: 50px;
+}
+
+.blog-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  display: flex; /* Flexboxの利用 */
+  justify-content: flex-start; /*要素の横並び・左揃え */
+}
+
+.blog-image {
+  height: 180px;
+}
+
+.blog-text {
+  padding: 25px 0 0 30px;
+}
+
+.blog-text-heading {
+  padding-bottom: 15px;
+}
+
+.blog-date {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px; /*border-radiusは、領域の四辺の角を丸くする */
+  color: #fff;
+  font-size: 11px;
+}
+
 .sidebar {
   width: 230px;
 }
