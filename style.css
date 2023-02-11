@@ -36,7 +36,8 @@ header {
   right: 22px; /* headerの右上から22px左側へ移動する */
 }
 
-header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+/* headerタグ内のheadingクラスにのみ反映される */
+header .heading { 
  font-size: 32px;
 }
 

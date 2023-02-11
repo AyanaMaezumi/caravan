@@ -1,0 +1,21 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b
+}
+
+body {
+  position: relative; /* #socialの基準位置を相対位置へ変更する */
+}
+
+.position {
+  position: absolute; /* bodyの左上を基準に絶対位置で指定する */
+  top: 100px; /* bodyの左上から100px下側へ移動する */
+  right: 40px; /* bodyの右上から40px左側へ移動する */ 
+}
+
+.fa-brands {
+  font-size: 32px;
+}
